@@ -1,148 +1,71 @@
 .navbar-brand{
-  font-size: 250% !important;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem !important;
+  color: #b83b5e !important;
+
+}
+.navbar{
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  box-shadow: 0 .5rem 0.5rem rgba(0, 0, 0, .1);
+}
+.nav-item{
+  padding: .5rem;
 }
 .nav-link{
-  font-size: 20px;
-  color: #fff !important;
+  color: #686d76 !important;
 }
+.nav-link.active,
+.nav-link:hover{
+  color: #b83b5e !important;
+}
+.carousel{
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+}
+.carousel-inner{
+  max-height: 38rem !important;
+}
+.carousel-inner-next,
+.carousel-inner-prev,
+.carousel-inner::after,{
+  transition:  transform 1.2s  ease ;
+}
+.carousel-caption{
 
-#title{
-  background-color: #ff4c68 ;
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
 }
-.er{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 350%;
-  line-height: 1.5;
-  margin: 10px;
-  color: #fff;
+.bg-custom{
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.dff{
-  width: 60%;
-  margin: 2% 4% 2%;
-  border-radius: 15%;
-
-
-}
-.b{
-  margin: 1% 0px 0px 3%;
+.dd{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2;
 }
 .f{
-  margin: 1% 0px 0px 5%;
+  font-weight: 600 !important;
 }
-#features{
-  padding: 7% 15%;
+.services h4{
+  color: #b83b5e;
 }
-.features-box{
-  text-align: center;
-}
-h3{
-font-family: 'Montserrat';
-font-weight: bolder;
-}
-h2{
-  font-family: "Montserrat" , sans-serif;
-  line-height: 1.5;
-}
-p{
-  color: #8f8f8f;
-}
-.icon{
-  color: #ef8172;
-  margin-bottom: 10px;
-}
-.icon:hover{
-  color: #ff4c68;
-}
-#testimonials{
-  padding: 0 15% 3% ;
-  background-color: #ef8172;
-  text-align: center;
-  color: #fff;
-}
-.carousel-item{
-  padding: 7% 15%;
-}
-.testimonials-image{
-  width: 40%;
-  border-radius: 100%;
-  margin: 1% 1% 0px;
-}
-.testimonials-image1{
-  width: 40%;
-  border-radius: 100%;
-  margin: 1% 1% 0%;
-}
-#press{
-    background-color: #ef8172;
-    text-align: center;
-}
-.press-logo{
-  width: 10%;
-  margin: 1% 1% 2%;
-}
-.testimonial-text{
-  font-size: 200%;
-}
-.testimonial-text1{
-  font-size: 200%;
-}
-.po{
-  text-align: center;
-}
-.k{
 
+.services a{
+text-decoration: none;
+color: #b83b5e;
 }
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
-  padding: 5% 7%;
+.services a::after{
+text-decoration: none;
+color: #e8505b;
 }
-#footer{
-  padding: 2% 3%;
-  text-align: center;
-  background-color: #8f8f8f;
+.section2{
+  background: url('C:/Users/USER/Desktop/intro-to-node/img/matrix.jpg');
+  height: 20rem;
+  width: 100%;
+  background-attachment: fixed;
 }
-.DDD{
-  color: #fff;
-}
-#pricing{
-  padding: 5% 7%;
-  text-align: center;
-}
-.card{
-  padding: 0 0 2%;
-}
-.zdf{
-  padding: 0 0 1%;
-}
-.sddd{
-  font-family: "Montserrat" , sans-serif;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 200%;
-  color: Black;
-}
-#jaya{
-  background-color:  #ef8172;
-  padding: 5% 7%;
-  text-align: center;
-  color: #fff;
-}
-.CV{
-  font-size: 130%;
-  color: #fff;
-}
-.FD{
-  font-family: "Montserrat" , sans-serif;
-  line-height: 1.5;
-  font-weight: bold;
-  font-size: 200%;
-  color: Black;
-}
-.KD{
-  padding: 2% 0 0%;
-}
-em{
-  font-weight: 500;
+.ujh{
+  height: 10rem;
 }
